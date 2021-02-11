@@ -1,0 +1,21 @@
+.card {
+  width: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.35);
+
+  .body {
+      padding: 16px;
+
+      .title {
+          font-size: small;
+      }
+
+      .content {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+      }
+  }
+}
